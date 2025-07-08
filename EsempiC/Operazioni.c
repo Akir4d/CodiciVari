@@ -16,7 +16,7 @@ int main()
     printf("\nAh, dimenticavo, la moltiplicazione e' %d", primo * secondo);
     printf("\nScusa a mi taccio, la divisione e': %0.2f", (float) primo / (float) secondo);
     somma++;
-    printf("\nE cumnque il numero successivo alla somma e': %d", somma);
+    printf("\nE comunque il numero successivo alla somma e': %d", somma);
     secondo--;
     primo--;
     printf("\nFaccio un ipotesi, se mi avessi dato %d - %d, la sua somma sarebbe stata: %d", primo, secondo, primo + secondo);
