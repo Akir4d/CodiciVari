@@ -18,6 +18,10 @@ int main()
     il secondo e' l'indirizzo di memoria della variabile che si ottiene anteponendo & alla varibile.
     */
     scanf("%d", &primo_numero);
+    /*
+    printf accetta piu' parametri, il primo deve essere una stringa formattata in modo che capisca come
+    deve sostituire il testo con i valori dei paramentri successivi, i valori %d,%x etc sono i medesimi di scanf
+    */
     printf("\nhai inserito %d che si trova all'indirizzo di memoria 0x%x", primo_numero, &primo_numero);
     return primo_numero;
 }
