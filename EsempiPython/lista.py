@@ -18,3 +18,11 @@ print(lista)
 ## lista.insert(elemento dopo quale inserire, elemento nuovo)
 lista.insert(2,"ciao")
 print(lista)
+
+## se preferite rimuovere un elemento per posizione
+del lista[2]
+print(lista)
+
+## se ovviamente vogliamo sovrascivere un elemento della lista
+lista[0] = "Franco"
+print(lista)
