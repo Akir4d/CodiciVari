@@ -16,5 +16,5 @@ lista.append([1,2,3,6])
 print(lista)
 
 ## lista.insert(elemento dopo quale inserire, elemento nuovo)
-lista.insert(0,"ciao")
+lista.insert(2,"ciao")
 print(lista)
