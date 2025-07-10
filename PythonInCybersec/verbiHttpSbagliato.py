@@ -8,7 +8,7 @@ if(port == ""): port = 80
 
 try:
     connection = http.client.HTTPConnection(host, port)
-    connection.request("OPTIONS", "/")
+    connection.request("OPTIONS", "/login.php")
     response = connection.getresponse()
     print("I metodi abilitati sono: ", response.status)
     connection.close()
