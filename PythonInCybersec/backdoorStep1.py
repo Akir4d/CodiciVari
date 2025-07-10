@@ -1,7 +1,7 @@
 import socket as so
 
 # socket, ha bisogno di una tupla contenete (ip dove fare il bind, e porta)
-SRV_ADDR = "10.0.2.15"
+SRV_ADDR = "192.168.2.32"
 SRV_PORT = 44444
 
 # Creaimo un oggetto che ci faccia gestire la connessione
