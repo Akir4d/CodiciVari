@@ -12,7 +12,7 @@ lowport = int(portrange.split('-')[0])
 highport = int(portrange.split('-')[1])
 
 print(f"Scansisco host {target} dalla porta {lowport} alla porta {highport}")
-
+porte_chiuse = []
 # ora porta per porta le controlliamo tutte
 for port in range(lowport, highport + 1): # [2,4,5,6,7...1024]
     # apriamo una connessione
@@ -23,8 +23,9 @@ for port in range(lowport, highport + 1): # [2,4,5,6,7...1024]
     if(status == 0):
         print(f"*** La porta {port} e' aperta ***")
     else:
-        print(f"La porta {port} e' chiusa!")
+        porte_chiuse.append(port)
+        #print(f"La porta {port} e' chiusa!")
     s.close()
-
+#print("porte chiuse", porte_chiuse)
 
 
